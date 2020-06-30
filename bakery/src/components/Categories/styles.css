@@ -1,0 +1,100 @@
+.item-category-area {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background: #f9f9ff;
+}
+
+.section-gap {
+    padding: 120px 0;
+}
+
+.item-category-area .container .container-header {
+    display: flex;
+    justify-content: center;
+}
+
+.item-category-area .container .container-header .header-text {
+    padding-bottom: 80px;
+}
+
+.item-category-area .container .container-header h1 {
+    font-size: 36px;
+    color: #222;
+    padding-bottom: 8px;
+}
+
+.item-category-area .container p {
+    font-size: 14px;
+    color: #777;
+    text-align: center;
+    line-height: 1.7em;
+}
+
+.item-category-area .container .category-list{
+    display: grid;
+    padding-bottom: 80px;
+    /* set four columns */
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 160px;
+}
+
+.item-category-area .single-cat-item {
+    text-align: center;
+}
+
+.item-category-area .single-cat-item .thumb img {
+    border-radius: 90px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.item-category-area .single-cat-item h4 {
+    line-height: 1.2em !important;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 20px 0px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.item-category-area .btn {
+    background: #d1ab7f;
+    line-height: 42px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid #d1ab7f;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    position: relative;
+}
+
+.item-category-area .btn:hover {
+    background: transparent;
+    color: #d1ab7f;
+}
+
+.item-category-area .container .container-action {
+    display: flex;
+    justify-content: center;
+}

@@ -2,26 +2,30 @@ import React from 'react';
 
 import './styles.css';
 
+import Categories from '../../components/Categories';
+
 const Home = () => {
     return (
         <>
-            <div className="banner-area relative">
+            <div className="banner-area relative" id="home">
 				<div className="overlay overlay-bg"></div>
 				<div className="container">
 					<div className="">
 						<div className="banner-content">
-							<h6 className="text-uppercase">Sempre que assamos, assamos com nosso coração</h6>
+							<h6 className="text-uppercase">Lorem ipsum dolor sit amet, consectetur adipiscing</h6>
 							<h1>
-								Amor de um pão<br/> quentinho			
+								Lorem ipsum dolor<br/> sit amet			
 							</h1>
 							<p>
-								"O pão nosso de cada dia há muito tempo deixou de ser básico. Atualmente,<br/> ele tem uma infinidade de variações, recheios e formatos."
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent turpis mi,<br/>
+								luctus vitae fringilla eget, aliquam ut mi.
 							</p>
-							<a href="menu.php" className="btn text-uppercase">Confira nosso menu</a>
+							<a href="#menu" className="btn text-uppercase">Explore our menu</a>
 						</div>											
 					</div>
 				</div>
 			</div>
+			<Categories />
         </>
     );
 };
