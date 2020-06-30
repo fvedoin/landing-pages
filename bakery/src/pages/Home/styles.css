@@ -1,0 +1,80 @@
+.banner-area {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    background: url('../../assets/banner-bg.jpg') center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.relative {
+    position: relative;
+}
+
+.banner-area .overlay {
+    background-color: rgba(4,9,30,0.5);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.banner-area .container{
+    z-index: 1;
+}
+
+.banner-area .btn {
+    background: #d1ab7f;
+    line-height: 42px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid #d1ab7f;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    position: relative;
+}
+
+.banner-area .btn:hover {
+    border: 1px solid #fff;
+    background: transparent;
+}
+
+.banner-area .banner-content h1 {
+    font-size: 72px;
+    font-weight: 700;
+    padding-bottom: 16px;
+    padding-top: 8px;
+    line-height: 1.1em;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #d1ab7f;
+    border-top: 1px solid #d1ab7f;
+    display: block;
+    width: 800px;
+}
+
+.banner-area .banner-content h6 {
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.banner-area .banner-content p {
+    max-width: 900px;
+    padding-bottom: 20px;
+    line-height: 24px;
+    font-weight: 100;
+}
