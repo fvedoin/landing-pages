@@ -1,0 +1,73 @@
+.about-text-left h6 {
+    color: #d1ab7f;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+.about-text-left h1 {
+    font-size: 36px;
+    padding-top: 20px;
+    color: #222;
+    line-height: 1.2em !important;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 600;
+}
+
+.about-text-left p span {
+    font-weight: 600;
+    color: #222;
+    font-size: 14px;
+    line-height: 1.625em;
+}
+
+.about-text-left p {
+    padding-top: 15px;
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+}
+
+.about-text-left .btn {
+    background: #222;
+    line-height: 42px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid #222;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    position: relative;
+    margin-top: 25px;
+}
+
+.about-text-left .btn:hover {
+    color: #d1ab7f;
+    border: 1px solid #d1ab7f;
+    background: #fff;
+}
+
+.about-area {
+    padding-top: 120px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background: #f9f9ff;
+}
+
+.about-area .container {
+    display: grid;
+    width: 1100px;
+    /* set two columns */
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+}

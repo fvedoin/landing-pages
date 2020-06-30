@@ -2,6 +2,7 @@ import React from 'react';
 
 import './styles.css';
 
+import About from '../../components/About';
 import Categories from '../../components/Categories';
 
 const Home = () => {
@@ -14,7 +15,7 @@ const Home = () => {
 						<div className="banner-content">
 							<h6 className="text-uppercase">Lorem ipsum dolor sit amet, consectetur adipiscing</h6>
 							<h1>
-								Lorem ipsum dolor<br/> sit amet			
+								Brand new template<br/> for you			
 							</h1>
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent turpis mi,<br/>
@@ -25,6 +26,7 @@ const Home = () => {
 					</div>
 				</div>
 			</div>
+			<About />
 			<Categories />
         </>
     );

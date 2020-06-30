@@ -8,7 +8,7 @@ import c3 from '../../assets/c3.jpg';
 
 const Categories = () => {
     return (
-        <section className="item-category-area section-gap">
+        <section className="item-category-area">
             <div className="container">
                 <div className="container-header">
                     <div className="header-text">
