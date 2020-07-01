@@ -3,8 +3,6 @@ import {FaFacebook, FaInstagram, FaLinkedin} from 'react-icons/fa';
 
 import './styles.css';
 
-import aboutImg from '../../assets/about-img.png';
-
 const Footer = () => {
     return (
         <section className="footer-area">

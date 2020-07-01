@@ -1,0 +1,120 @@
+#header {
+    padding: 0px 0px 24px 0px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+    z-index: 997;
+}
+
+.header-scrolled {
+    transition: all 0.5s;
+    box-shadow: -21.213px 21.213px 30px 0px rgba(158,158,158,0.3);
+    background-color: #fff;
+    height: 84px;
+}
+
+.header-scrolled .header-top {
+    display: none;
+}
+
+.header-scrolled .main-menu {
+    position: absolute;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    left: 0;
+    right: 0;
+    padding: 30px 30px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.header-top {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 12px;
+    padding: 15px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.header-top .container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header-top .container a {
+    color: #fff;
+}
+
+.header-top-right a {
+    padding-left: 48px;
+}
+
+.header-top-left a {
+    padding-right: 16px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.header-top-left a:hover {
+    color: #d1ab7f;
+}
+
+.main-menu {
+    position: absolute;
+    margin-left: 100px;
+    margin-right: 100px;
+    left: 0;
+    right: 0;
+    padding: 30px 30px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.nav-menu, .nav-menu * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-menu>li {
+    margin-left: 10px;
+}
+
+.nav-menu>li {
+    float: left;
+}
+
+.nav-menu li {
+    position: relative;
+    white-space: nowrap;
+}
+
+.nav-menu a {
+    padding: 0 8px 0px 8px;
+    text-decoration: none;
+    display: inline-block;
+    color: #222;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    outline: none;
+}

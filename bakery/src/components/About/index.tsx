@@ -6,7 +6,7 @@ import aboutImg from '../../assets/about-img.png';
 
 const About = () => {
     return (
-        <section className="about-area">
+        <section className="about-area" id="about">
             <div className="container">			
                 <div className="about-text-left">
                     <h6 className="text-uppercase">Neque porro quisquam est qui</h6>

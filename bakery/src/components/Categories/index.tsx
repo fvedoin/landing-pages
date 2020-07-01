@@ -8,7 +8,7 @@ import c3 from '../../assets/c3.jpg';
 
 const Categories = () => {
     return (
-        <section className="item-category-area">
+        <section className="item-category-area" id="categories">
             <div className="container">
                 <div className="container-header">
                     <div className="header-text">
@@ -54,7 +54,7 @@ const Categories = () => {
                     </div>																		
                 </div>
                 <div className="container-action">
-                    <a className="btn" href="menu.php">All Items</a>
+                    <a className="btn" href="#">All Items</a>
                 </div>	
             </div>	
         </section>
