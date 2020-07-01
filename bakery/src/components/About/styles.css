@@ -57,6 +57,7 @@
 
 .about-area {
     padding-top: 120px;
+    padding-bottom: 8px;
     display: flex;
     width: 100%;
     align-items: center;
