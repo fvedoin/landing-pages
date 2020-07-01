@@ -5,6 +5,7 @@ import './styles.css';
 import About from '../../components/About';
 import Categories from '../../components/Categories';
 import Local from '../../components/Local';
+import Footer from '../../components/Footer/indes';
 
 const Home = () => {
     return (
@@ -30,6 +31,7 @@ const Home = () => {
 			<About />
 			<Categories />
 			<Local />
+			<Footer />
         </>
     );
 };
