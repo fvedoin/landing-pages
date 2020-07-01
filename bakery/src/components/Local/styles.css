@@ -1,0 +1,78 @@
+#map-area {
+    display: flex;
+    padding-top: 8px;
+    padding-bottom: 120px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background: #f9f9ff;
+}
+
+#map-area .container {
+    display: grid;
+    width: 1100px;
+    /* set two columns */
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+}
+
+.contact-container {
+    width: 300px;
+}
+
+.single-contact-address {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.contact-container h6 {
+    color: #d1ab7f;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+.contact-container h1 {
+    font-size: 36px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #222;
+    line-height: 1.2em !important;
+    margin-bottom: 10;
+    margin-top: 0;
+    font-weight: 600;
+}
+
+.contact-container p span {
+    font-weight: 600;
+    color: #222;
+    padding-bottom: 1000px !important;
+}
+
+.contact-container p {
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    position: relative;
+}
+
+.contact-container h5 {
+    font-weight: 300;
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 5px;
+    color: #222;
+    line-height: 1.2em !important;
+}
+
+.single-contact-address .icon {
+    margin-right: 24px;
+}
+
+.leaflet-container {
+    width: 650px;
+    height: 350px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}

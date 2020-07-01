@@ -4,6 +4,7 @@ import './styles.css';
 
 import About from '../../components/About';
 import Categories from '../../components/Categories';
+import Local from '../../components/Local';
 
 const Home = () => {
     return (
@@ -28,6 +29,7 @@ const Home = () => {
 			</div>
 			<About />
 			<Categories />
+			<Local />
         </>
     );
 };
